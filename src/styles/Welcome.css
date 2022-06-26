@@ -1,0 +1,36 @@
+.welcome-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+  flex-direction: column;
+}
+.welcome-title {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  color: #293264;
+  margin-bottom: 0px;
+}
+.welcome-description {
+  color: #293264;
+  font-size: 22px;
+  font-weight: 400;
+}
+.welcome-button {
+  background: #4d5b9e;
+  cursor: pointer;
+  color: white;
+  border-radius: 15px;
+  padding: 20px 90px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: opacity 0.15s;
+}
+.welcome-button:hover {
+  opacity: 0.8;
+}
+.welcome-button:active {
+  opacity: 0.5;
+}

@@ -1,0 +1,18 @@
+.check-button {
+  background: #4d5b9e;
+  cursor: pointer;
+  color: white;
+  border-radius: 15px;
+  padding: 15px 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: opacity 0.15s;
+  margin: -50px 200px;
+}
+.check-button:hover {
+  opacity: 0.8;
+}
+.check-button:active {
+  opacity: 0.6;
+}

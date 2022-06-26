@@ -1,0 +1,38 @@
+.question {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+
+  color: #293264;
+}
+.quiz-block {
+  margin: 30px 100px;
+  padding-bottom: 25px;
+  border-bottom: 0.794239px solid #dbdef0;
+  transform: rotate(-0.05deg);
+}
+.info-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checking-button {
+  background: #f5f7fb;
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  padding: 10px 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  color: white;
+  background: #4d5b9e;
+  margin-right: 15px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.checking-button:hover {
+  opacity: 0.8;
+}

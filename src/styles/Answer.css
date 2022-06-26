@@ -1,0 +1,17 @@
+.answer-button {
+  background: #f5f7fb;
+  border: 0.794239px solid #4d5b9e;
+  border-radius: 7.94239px;
+  padding: 10px 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 12px;
+  color: #293264;
+  margin-right: 15px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.answer-button:hover {
+  opacity: 0.8;
+}
